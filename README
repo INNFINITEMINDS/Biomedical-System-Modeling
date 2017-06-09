@@ -1,0 +1,18 @@
+--------------------------------
+	Author: Chungyuen Li
+	Contact: lizoyu1@gmail.com
+--------------------------------
+
+This is the collection of class assignments from BME 450/550 in Washington University at St. Louis, which is about Biomedical System computational modeling. It's written in C++ and contains:
+	1. Hodgkins-Huxley model
+	2. A matrix class
+	3. Genetic Algorithm
+
+	Hodgkins-Huxley model
+	It contains the full-function Hodgkins-Huxley model(action potential) using RK-4, and also models solely for each ion channel and with different ODE solvers. Number in the output line corresponds to the number of cpp files. Solvers are contained in the hw7.h, and equations.cpp contains the ordinary differential equations for Hodgkins-Huxley model.
+
+	Matrix class
+	It's a class for matrix and related manipulation. main.cpp is the tester, matrix.h contains the matrix class.
+
+	Genetic algorithm
+	It's designed to find the minimum of a function contained in GA.h. main.cpp is the tester, and each part of the genetic algorithm is divided into different header files(selection, recombination, mutation), while GA.h is the main part of the genetic algorithm. It uses Russian Roulette selection, elitism recombination and one-point mutation.
